@@ -1,0 +1,93 @@
+#sign-screen {
+  display: flex;
+  flex-wrap: wrap; /* Add this property to allow elements to wrap */
+  justify-content: center; /* Horizontally center elements */
+  align-items: center; /* Vertically center elements */
+  background-color: rgb(175, 168, 168);
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  right: 25%;
+  top: 10%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#upload-img{
+  margin-left: 1rem;
+}
+
+#img-place{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+
+.screen-foot{
+  float: left;
+  top: 1%;
+  bottom: 5%;
+
+}
+
+
+#log-screen {
+  display: flex;
+  flex-wrap: wrap; /* Add this property to allow elements to wrap */
+  justify-content: center; /* Horizontally center elements */
+  align-items: center; /* Vertically center elements */
+  background-color: rgb(175, 168, 168);
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  right: 25%;
+  top: 10%;
+}
+
+
+.lable {
+  flex-basis: 100%; /* Set the width of label elements to 100% to take up the full width of the container */
+  position: relative;
+  margin: 2%;
+}
+
+
+.screen-foot{
+  position: relative;
+  right: 20%;
+  bottom: 30%;
+}
+
+#register{
+  left: 10%;
+}
+
+body {
+  margin: 0px;
+  }
+  .patterns {
+  width: 100vw;
+  height: 100vw;
+  }
+
+  .sea {
+  background-color: #026873;
+  background-size: 13px 13px, 29px 29px, 37px 37px, 53px 53px;
+  background-image: -webkit-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -webkit-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-image: -moz-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -moz-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -moz-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -moz-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-image: -ms-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -ms-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-image: -o-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -o-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-image: linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  }

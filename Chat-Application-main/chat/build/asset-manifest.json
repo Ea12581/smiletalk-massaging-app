@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c955baa5.css",
+    "main.js": "/static/js/main.431fdfef.js",
+    "static/media/fitting_blue.png": "/static/media/fitting_blue.79e1f6200678e2c29dcc.png",
+    "index.html": "/index.html",
+    "main.c955baa5.css.map": "/static/css/main.c955baa5.css.map",
+    "main.431fdfef.js.map": "/static/js/main.431fdfef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c955baa5.css",
+    "static/js/main.431fdfef.js"
+  ]
+}
