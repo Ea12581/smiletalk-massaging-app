@@ -11,15 +11,16 @@ const WebSocket = require('ws');
 const chatController = require('./controllers/chat.js');
 
 const app = express();
-env(process.env.NODE_ENV, './config');
+require('dotenv').config({ path: './config/.env.test' });
 
 console.log(process.env.CONNECTION_STRING);
 console.log(process.env.PORT);
+const uri = "mongodb+srv://messageAppAdmin:1256427@massaggingapp.84yzi.mongodb.net/app?retryWrites=true&w=majority&appName=MassaggingApp";
 
-mongoose
-  .connect(process.env.CONNECTION_STRING + '/chat-app')
+
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
-  .catch((error) => console.error('Failed to connect to MongoDB', error));
+  .catch((err) => console.error('Error connecting to MongoDB:', err));
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
